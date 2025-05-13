@@ -1,0 +1,17 @@
+Host *
+	IdentityFile ~/.ssh/reika
+	SetEnv TERM=xterm-256color
+
+Host jupiter
+	Hostname jupiter.lan
+
+Host jupiter-ts
+	Hostname jupiter.walleye-walleye.ts.net
+
+Host minerva
+	Hostname minerva.lan
+	ForwardAgent yes
+
+Host minerva-ts
+	Hostname minerva.walleye-walleye.ts.net
+	ForwardAgent yes
