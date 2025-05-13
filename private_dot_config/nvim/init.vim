@@ -1,10 +1,10 @@
 set nocompatible
 set showmatch
 set hlsearch
-set wildmode=longest,list	# bash-like tab completions
-set mouse=a			# enable mouse click
-set ttyfast			# speed up scrolling
-set clipboard=unnamedplus	# using system clipboard
+set wildmode=longest,list
+set mouse=a
+set ttyfast
+set clipboard=unnamedplus
 
 set number
 
